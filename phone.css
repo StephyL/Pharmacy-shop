@@ -1,0 +1,195 @@
+/* -----------Phone Page "Home"------------------- */
+@media only screen and (max-width: 415px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  .guide {
+    width: 100%;
+    display: block;
+  }
+  .navbar {
+    display: block;
+    float: left;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 5px;
+    transition: all 0.5s ease;
+    font-size: 20px;
+  }
+  .home-box {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+  }
+  .home-section1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    position: relative;
+  }
+  .home-photo {
+    width: 410px;
+    height: 150px;
+  }
+  .home-photo img {
+    width: 410px;
+    margin-left: 2px;
+  }
+  .coaching {
+    margin-top: -300px;
+  }
+  .home-content-1 .coaching h1 {
+    font-size: 55px;
+  }
+  .service {
+    width: 50%;
+  }
+  .booking {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 10%;
+    padding: 0px;
+  }
+  .home-section2 {
+    margin-top: -300px;
+  }
+  .home-section3 {
+    height: 1700px;
+  }
+  .home-section3-blocks .blocks li {
+    height: auto;
+  }
+}
+/* ----------------------Phone Page "Workshop"---------------------- */
+@media only screen and (max-width: 415px) {
+  .workshop-guide {
+    width: 100%;
+    display: block;
+  }
+  .workshop-navbar {
+    display: block;
+    float: left;
+  }
+  .workshop-navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 5px;
+    transition: all 0.5s ease;
+    font-size: 20px;
+  }
+  .intro .box h1{
+    font-size: 30px;
+  }
+  .intro .box img{
+    width: 90%;
+  }
+}
+/* ----------------------Phone Page "About"--------------------- */
+@media only screen and (max-width: 415px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  .about-guide {
+    width: 100%;
+    display: block;
+    background-color: brown;
+  }
+  .about-navbar {
+    display: block;
+    float: left;
+  }
+  .about-navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 5px;
+    transition: all 0.5s ease;
+    font-size: 20px;
+  }
+  .background {
+    height: 500px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+  .background .text {
+    padding-top: 200px;
+  }
+  .background .text .title {
+    margin-top: 0px;
+    font-size: 3em;
+  }
+  .background .text .sub-title {
+    font-size: 2.5em;
+  }
+  .pro-photo-3 {
+    width: 400px;
+    margin: 50px auto 10px auto;
+  }
+  .pro-photo-3 img {
+    width: 400px;
+    height: 400px;
+  }
+  .testimonials .text .t-content {
+    padding: 5px;
+  }
+}
+
+/* -----------------------Phone Page "Contact"------------ */
+@media only screen and (max-width: 415px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  .contact-guide {
+    width: 100%;
+    display: block;
+  }
+  .contact-navbar {
+    display: block;
+    float: left;
+  }
+  .contact-navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 5px;
+    transition: all 0.5s ease;
+    font-size: 20px;
+  }
+  .contact {
+    width: 415px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .information {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .detail {
+    width: 100%;
+    margin: 2px auto;
+    text-align: center;
+    padding-left: 10px;
+  }
+  .contact-form {
+    margin-top: -50px;
+    width: 90%;
+  }
+  .map {
+    width: 100%;
+  }
+}
